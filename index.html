@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhavala Destiny 2026</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="form-card">
+
+      <div class="header">
+
+        <img src="logo.png" alt="College Logo" class="logo">
+
+        <h1>Candidate Registration</h1>
+
+        <p>Please fill all the details carefully</p>
+
+      </div>
+
+      <form id="applicationForm">
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" id="fullName" required>
+        </div>
+
+        <div class="form-group">
+          <label>Gender</label>
+          <select id="gender" required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Date of Birth</label>
+          <input type="date" id="dob" required>
+        </div>
+
+        <div class="form-group">
+          <label>Mobile Number</label>
+          <input type="tel" id="mobile" maxlength="10" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+          <label>College Name</label>
+          <input type="text" id="college" required>
+        </div>
+
+        <div class="form-group">
+          <label>University</label>
+          <input type="text" id="university" required>
+        </div>
+
+        <div class="form-group">
+          <label>College Location</label>
+          <input type="text" id="location" required>
+        </div>
+
+        <div class="form-group">
+          <label>Address</label>
+          <textarea id="address" rows="3" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Qualification</label>
+          <input type="text" id="qualification" required>
+        </div>
+
+        <div class="form-group">
+          <label>Course Name</label>
+          <input type="text" id="course" required>
+        </div>
+
+        <div class="form-group">
+          <label>Technical Skills</label>
+          <input type="text" id="skills">
+        </div>
+
+        <div class="form-group">
+          <label>Languages Known</label>
+          <input type="text" id="languages">
+        </div>
+
+        <div class="form-group">
+          <label>Are you willing to relocate?</label>
+          <select id="relocate" required>
+            <option value="">Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Interested in Further Studies?</label>
+          <select id="studies" required>
+            <option value="">Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Comfortable with Shift Work?</label>
+          <select id="shiftWork" required>
+            <option value="">Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Do you have Passport?</label>
+          <select id="passport" required>
+            <option value="">Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Driving License</label>
+          <select id="license" required>
+            <option value="">Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <button type="submit" id="submitBtn">
+          Submit Application
+        </button>
+
+        <div id="messageBox"></div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
