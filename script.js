@@ -75,7 +75,7 @@ form.addEventListener("submit", async (e) => {
 
     if (result.status === "success") {
 
-      showMessage(result.message, "success");
+      showMessage("Registration successful! Please check your email.", "success");
 
       form.reset();
 
